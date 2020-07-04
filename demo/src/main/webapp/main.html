@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="ajaxjs.js"></script>
+<link rel="stylesheet" href="modal.css">
+</head>
+<body>
+<div id="screen"></div>
+
+<div id="modal">
+   <h2>Edit details PAGE</h2>
+<label>ID :</label>
+<input type="text"  id="pid" readonly >
+<label>First Name :</label>
+<input type="text"  id="pfirstname">
+<label>Last Name :</label>
+<input type="text"  id="plastname">
+<label>Email :</label>
+<input type="text"  id="pemail">
+<input type="button"  value="SAVE" id ="save">
+<button>X</button>
+  
+</div>
+<div id ="success">
+<h1 >Login Successful</h1>
+<input type="button"  value="Logout" id ="logout" />
+</div>
+<table id="records_table" border='1'>
+</table>
+
+<h1 id ="failure">Email id doesnot exist</h1>
+
+<form id ="form" method="post"  >
+<h2>LOGIN PAGE</h2>
+
+<label>Email :</label>
+<input type="text" name="email" id="email">
+<label>Password :</label>
+<input type="password" name="password" id="password">
+<input type="button"  value="Login" id ="login">
+</form>
+
+</body>
+</html>

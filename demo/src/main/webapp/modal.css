@@ -1,0 +1,20 @@
+#screen, #modal {
+    display: none;
+    position: fixed;
+}
+
+#screen {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,4,3,0.25);
+    z-index: 1;
+}
+
+#modal {
+     width: 64.333% ;
+    top: 20%;
+    left: 33.3333%;
+    background: white;
+    z-index: 2;  
+   
+}
